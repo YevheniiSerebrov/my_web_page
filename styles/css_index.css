@@ -1,0 +1,44 @@
+html{
+    background-image:url(../images/picc1.png);
+    background-size:50%; 
+    background-color: rgb(253, 243, 211);
+}
+* {
+    margin: 0px;
+}
+
+div {
+    display:flex;
+} 
+#btn {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 70px;
+}
+button {
+    margin: 2px;
+    font-family: fantasy;
+    width: 500px;
+    height: 130px;
+    font-size: 40px;
+    line-height: 1.33;
+    text-transform: uppercase;
+    background-color: #000000da;
+    color: #fac451;
+    transition: all 1.5s ease;
+    border: 0;
+    letter-spacing: 8px;
+    }
+
+    button:hover {
+        color: #e3a2fd;
+        background-color: #0000007a;
+        outline: none;
+}
+#non {
+    height: 1000px;
+}
+button {
+    cursor:pointer;
+}
+
